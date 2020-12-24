@@ -1,0 +1,69 @@
+{% extends "template.html" %}
+{% block title %}Home{% endblock %}
+
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Classifier</h1>
+            <p>{{ model_state_msg }}</p>
+            <!--            try adding render_template after lading model in the function called by ajax-->
+
+            <br>
+            <form action="/" method="POST" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <label>Select .msg files to classify</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" name="files" id="files" multiple="">
+                        <label class="custom-file-label" for="files">Browse files...</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Upload</button>
+                <p>{{ upload_status }}</p>
+
+
+                <!--                    <button type="submit" class="btn btn-success btn-lg" id="classify">Click to Classify</button>-->
+                <!--                <p>{{ process_status }}</p>-->
+            </form>
+            <br>
+            <br>
+            <center>
+            <form>
+                <a href=# id=classify>
+                    {% if classify_enable==1 %}
+                    <button class='btn btn-success btn-lg'>Click to Classify</button>
+                    {% else %}
+                    <button class='btn btn-success btn-lg' disabled>Click to Classify</button>
+                    {% endif %}
+                </a>
+            </form>
+            </center>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type=text/javascript>
+        $(function() {
+          $('a#classify').on('click', function(e) {
+            e.preventDefault()
+            $.getJSON('/classify',
+                function(data) {
+                window.alert(data.result)
+            });
+            return false;
+          });
+        });
+
+
+
+
+
+
+</script>
+
+{% endblock %}
+
+
