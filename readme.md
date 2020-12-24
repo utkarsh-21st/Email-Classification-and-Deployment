@@ -11,22 +11,6 @@ The below deployment provides a UI to browse and read .msg files, classifies the
 Note: It currently implements DistilBERT in its backend however you can make relevant alterations to the tasks.py to make it run for XLNet.
 
 ### Deployment using Flask
-
-The project directory looks like so:
-├── app
-│   ├── data
-│   │   ├── images
-│   │   └── model_data
-│   ├── __init__.py
-│   ├── model
-│   ├── tasks.py
-│   ├── templates
-│   │   ├── about.html
-│   │   ├── index.html
-│   │   └── template.html
-│   └── views.py
-└── run.py
-
 #### How to run?
 - Install dependencies: See [requirements.txt](https://github.com/utkarsh-21st/attendence-face-recognition/blob/master/requirements.txt "requirements.txt")
 - Clone this repository
@@ -43,5 +27,6 @@ python main.py
 Go to the URL (localhost) which would be displayed in your Terminal window.
 (similar to http://127.0.0.1:5000/)
 and there we have the Home Page - 
+
 ![Home Page](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/app/data/images/home_img.png "Home Page")
 
