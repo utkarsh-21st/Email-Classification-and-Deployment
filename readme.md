@@ -13,7 +13,7 @@ Note: It currently implements DistilBERT in its backend however you can make rel
 
 ### Deployment using Flask
 #### How to run?
-- Install dependencies: See [requirements.txt](https://github.com/utkarsh-21st/attendence-face-recognition/blob/master/requirements.txt "requirements.txt")
+- Install dependencies: See [requirements.txt](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/requirements.txt "requirements.txt")
 - Clone this repository
 ```shell
 git clone https://github.com/utkarsh-21st/Email-Classification-and-Deployment.git
