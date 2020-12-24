@@ -1,0 +1,6 @@
+flask
+extract_msg
+tensorflow
+transformers
+numpy
+pandas
