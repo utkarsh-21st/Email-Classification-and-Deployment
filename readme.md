@@ -27,9 +27,8 @@ git clone https://github.com/utkarsh-21st/Email-Classification-and-Deployment.gi
 ```shell
 python main.py
 ```
-Go to the URL (localhost) which would be displayed in your Terminal window.
+Head over to the URL (localhost) which would be displayed in your Terminal window.
 (similar to http://127.0.0.1:5000/)
-and there we have the Home Page - 
 
 ![Home Page](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/app/data/images/home_img.png "Home Page")
 
