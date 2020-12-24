@@ -3,6 +3,7 @@
 
 The email-dataset (.msg files) that I originally used in this project are confidential and thus can't be open-sourced, so in the [jupyter-notebook](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/text_classification.ipynb "jupyter-notebook"), I've used a text-complaint dataset, which is stored in a CSV file, to train the model.
 Here is the link for that - [Click](https://drive.google.com/file/d/10LSWKtWAOOSv1l-SIvzr6sPI-niXcxbZ/view "Click").
+
 If you do have .msg files, you may train the model accordingly as per the instructions provided in the notebook.
 Go through the [Jupyter Notebook](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/text_classification.ipynb "Jupyter Notebook") and train the model.
 
