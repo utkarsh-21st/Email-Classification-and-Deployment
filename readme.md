@@ -1,6 +1,8 @@
 ## Email Clasification
 ### Classification using DistilBERT and XLNet
 
+![Home Page](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/app/data/images/home_img.png "Home Page")
+
 The email-dataset (.msg files) that I originally used in this project are confidential and thus can't be open-sourced, so in the [jupyter-notebook](https://github.com/utkarsh-21st/Email-Classification-and-Deployment/blob/master/text_classification.ipynb "jupyter-notebook"), I've used a text-complaint dataset, which is stored in a CSV file, to train the model.
 Here is the link for that - [Click](https://drive.google.com/file/d/10LSWKtWAOOSv1l-SIvzr6sPI-niXcxbZ/view "Click").
 
