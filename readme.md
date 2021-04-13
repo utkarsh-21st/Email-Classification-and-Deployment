@@ -53,7 +53,6 @@ Next is the idea of word-embeddings which is also a numerical vector
 representation for a word. Two famous ones are **word2vec** and **GloVe**.
 These are learned embeddings that take into consideration occurrence and
 co-occurrence information as well. They also capture semantic-similarity
-
 between words and are known to perform better than ‘simple’ Bag of Words
 representation methods.
 **RNN (Recurrent Neural Network)** is currently one of the best approaches to
