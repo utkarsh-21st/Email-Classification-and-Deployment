@@ -34,7 +34,7 @@ Head over to the URL (localhost) which would be displayed in your Terminal windo
 
 ------------
 
-## Overview Of Different Approaches for Text Classification [January 2021]
+### Overview Of Different Approaches for Text Classification [January 2021]
 **Bag of Words representation**, which was much used before the advent of
 Deep Learning, approaches the problem in the following way:
 Having a dataset of sequences, it first creates a vocabulary (unique-words)
